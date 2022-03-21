@@ -1,0 +1,42 @@
+.teachers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2em;
+
+}
+.teachers img{
+    border-radius: 50%;
+    width: 200px;
+    height: 210px;
+}
+.teachers div{
+    margin: 2.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.logout{
+    display: flex;
+    justify-content: center;
+}
+.logout-btn{
+    width: 40%;
+    text-align: center;
+    padding: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: maroon;
+    color: burlywood;
+    cursor: pointer;
+    margin: 2em auto;
+}
+@media (max-width: 600px) {
+    .logout-btn{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 0px;
+    }
+    
+}

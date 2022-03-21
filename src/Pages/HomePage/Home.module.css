@@ -1,0 +1,138 @@
+.banner{
+    margin: 0 auto;
+    width: 100%;
+    height: 30em;
+    background-image: url('../StudentsPage/Images/bgi.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 1em;
+    border-bottom: 30px solid maroon;
+    
+}
+
+.banner p{
+    width: 60%;
+    color: maroon;
+    background-color: white;
+    font-family: monospace;
+    font-size: 30px;
+    padding: 0.5em;
+    border-radius: 10px;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+.contact{
+    margin-top: -4em;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.contact p{
+    margin-top: 2em;
+    padding: 1em;
+    color: white;
+    border: none;
+    border-radius: 35px;
+    color: burlywood;
+}
+
+.contact p span{
+    padding: 0.5em;
+
+}
+
+.events {
+    text-transform: uppercase;
+    color: maroon;
+    font-size: 20px;
+    margin-left: 4.3em;
+}
+
+@media (max-width: 400px) {
+    .events{
+        text-transform: uppercase;
+        color: maroon;
+        padding-left: 1em;
+        font-size: small;
+    }
+    
+}
+
+@media (max-width: 700px) {
+    .events{
+        text-transform: uppercase;
+        color: maroon;
+        font-size: 25px;
+    }
+    .banner p{
+        width: 90%;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+
+}
+
+
+.scroll{
+    font-size: 35px;
+    margin-left: auto;
+    margin-bottom: 0.5em;
+    margin-right: 0.5em;
+    padding: 0.2em;
+    cursor: pointer;
+    background-color: maroon;
+    color: white;
+    border-radius: 50%;
+}
+
+@media (max-width: 500px) {
+    .scroll{
+        font-size: 25px;
+        margin-right: 0.2;
+    }
+    .ann{
+        margin-top: -5em;
+    }
+    
+    
+}
+.container{
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+
+}
+.container h1{
+    text-align: center;
+    width: 60%;
+    margin-left: 1em;
+    color: maroon;
+}
+
+
+@media (max-width: 600px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10em;
+    
+    }
+    .container h1{
+        text-align: center;
+        width: 100%;
+        font-weight: 500;
+        font-size: 20px;
+        margin-left: -1em;
+        margin-top: 1em;
+        color: maroon;
+    }
+     
+}

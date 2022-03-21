@@ -1,0 +1,35 @@
+.calendar{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-left: 2em;
+}
+.date{
+    text-align: center;
+        padding: 0.6em;
+        background-color: maroon;
+        margin: 2em;
+        border-radius: 20px;
+        color: burlywood;
+        font-size: 1.5rem;
+        border: none;
+}
+
+
+@media (max-width: 600px) {
+    .calendar{
+      margin: 0 auto;
+      width: 90%;
+    }
+    .date{
+        text-align: center;
+        padding: 0.6em;
+        background-color: maroon;
+        margin: 2em;
+        border-radius: 20px;
+        color: burlywood;
+        font-size: 1.5rem;
+        border: none;
+    }
+}

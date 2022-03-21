@@ -1,0 +1,47 @@
+.news{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 40%;
+    max-width: 95%;
+    margin-top: 0em;
+    border-radius: 12px;
+    background-color: rgb(31, 31, 31);
+    
+}
+.first-ann p{
+    height: 200px;
+    background-image: url('../StudentsPage/Images/background-992850__340\ -\ Copy.png');
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 1em;
+}
+.first-ann h1{
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+
+}
+@media (max-width: 600px) {
+    .news{
+        width: 70%;
+    }
+    .ann{
+        font-size: 20px;
+        margin-bottom: -1em;
+    }
+    
+}
+.ann{
+    text-align: center;
+    margin-bottom: 0em;
+    margin-top: 1.5em;
+    text-transform: uppercase;
+    color: maroon;
+    margin-left: auto;
+    margin-right: auto;
+}

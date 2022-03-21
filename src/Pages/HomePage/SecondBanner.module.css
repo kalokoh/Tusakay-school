@@ -1,0 +1,161 @@
+.second-banner {
+  display: flex;
+  margin-top: 6em;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  background-color: maroon;
+  width: 80%;
+  margin-bottom: 2em;
+}
+
+.slider {
+  overflow: hidden;
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 5em;
+  height: 400px;
+  border-bottom: maroon 40px solid;
+}
+.images {
+  width: 500%;
+  position: relative;
+  margin: 0;
+  left: 0;
+  animation: slider 20s infinite;
+}
+.images img {
+  width: 20%;
+  float: left;
+}
+
+@keyframes slider {
+  0% {
+    left: 0;
+  }
+  20% {
+    left: 0;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  95% {
+    left: -300%;
+  }
+  100% {
+    left: -400%;
+  }
+}
+
+.description-container {
+  margin-top: auto;
+  margin-bottom: auto;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 1em;
+}
+
+.first {
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-bottom: 0.3em;
+}
+
+.txt-container {
+  text-align: center;
+  margin-top: -6.8em;
+  margin-bottom: 7em;
+}
+
+.txt-container p {
+  color: white;
+  text-transform: uppercase;
+  font-family: monospace;
+  width: 60%;
+  animation: txt 4s infinite linear alternate;
+  position: relative;
+}
+
+@keyframes txt {
+  0% {
+    left: 0%;
+  }
+
+  25% {
+    left: 125px;
+  }
+  50% {
+    left: 250px;
+  }
+  75% {
+    left: 375px;
+  }
+  100% {
+    left: 500px;
+  }
+}
+.call {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  height: 8em;
+  width: 20em;
+  margin: 0 auto;
+  margin-top: -2em;
+  margin-bottom: 4em;
+  z-index: 1;
+  text-align: center;
+}
+.icon {
+  border-radius: 50%;
+  border: solid 2px maroon;
+  padding: 1em;
+  font-size: 20px;
+}
+.txt {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin-left: -4em;
+  margin-top: 2em;
+}
+.txt p {
+  padding: 0.3em;
+  color: maroon;
+}
+.txt .txt1 {
+  color: black;
+}
+
+.txt .txt2 {
+  font-size: 20px;
+  margin-top: -1em;
+}
+@media (max-width: 600px) {
+  .slider {
+    border-bottom: maroon 40px solid;
+    height: 150px;
+  }
+  .txt-container p {
+    animation: none;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3eecbcef.css",
+    "main.js": "/static/js/main.a541a115.js",
+    "static/media/background-992850__340 - Copy.png": "/static/media/background-992850__340 - Copy.730c441bc952f4e1e0ae.png",
+    "static/media/IMG-20211108-WA0023.jpg": "/static/media/IMG-20211108-WA0023.82505304bb69f6f10e75.jpg",
+    "static/media/bgi.jpg": "/static/media/bgi.e1cca330bc4e89218ce8.jpg",
+    "static/media/IMG-20211108-WA0029.jpg": "/static/media/IMG-20211108-WA0029.dff649a318ef4c05128f.jpg",
+    "static/media/IMG-20211108-WA0030.jpg": "/static/media/IMG-20211108-WA0030.58ab83989b58998d02ed.jpg",
+    "static/media/IMG-20211108-WA0027.jpg": "/static/media/IMG-20211108-WA0027.dc0605724c7b9589cb06.jpg",
+    "static/media/IMG-20211108-WA0028.jpg": "/static/media/IMG-20211108-WA0028.7242b505643edb6c6b54.jpg",
+    "static/media/contact.jpg": "/static/media/contact.be5dd25f4d054de6c412.jpg",
+    "static/media/images (1).jfif": "/static/media/images (1).a3bcd3ed6732dcdfe401.jfif",
+    "static/media/download.jfif": "/static/media/download.77c6d8dca89ee383356f.jfif",
+    "index.html": "/index.html",
+    "main.3eecbcef.css.map": "/static/css/main.3eecbcef.css.map",
+    "main.a541a115.js.map": "/static/js/main.a541a115.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3eecbcef.css",
+    "static/js/main.a541a115.js"
+  ]
+}

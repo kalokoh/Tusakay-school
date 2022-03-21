@@ -1,0 +1,34 @@
+
+.daily-event{
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    background: coral;
+    padding: 2.5em;
+    border-radius: 15px;
+    align-items: center;
+    font-size: small;
+}
+.upcoming-events{
+    margin-bottom: 1em;
+}
+
+
+.date-holder p{
+    padding-right: 1em;
+}
+.place-holder p {
+    padding-left: 1em;
+}
+.time-holder p{
+    padding-left: 1em;
+}
+
+@media screen {
+    .daily-event{
+        width: 60%;
+        margin-bottom: 1em;
+        margin-left: auto;
+        margin-right: auto ;
+    }
+}
